@@ -1,6 +1,6 @@
 alembic
 asyncpg
-fastapi
+fastapi[standard]
 sqlmodel
 uvicorn
 psycopg[binary]

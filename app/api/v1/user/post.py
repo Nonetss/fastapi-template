@@ -8,8 +8,11 @@ from fastapi.encoders import jsonable_encoder
 router = APIRouter()
 
 
-@router.post("/")
+@router.post("/", response_model=User)
 async def create_user(user: User, session: AsyncSession = Depends(get_session)):
+    """
+    Endpoint basico para crear usuario
+    """
     user = User(username=user.username, password=user.password)
     session.add(user)
     await session.commit()

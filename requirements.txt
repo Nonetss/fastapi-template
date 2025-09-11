@@ -7,3 +7,5 @@ psycopg[binary]
 loguru
 psycopg2-binary
 python-dotenv
+pyjwt
+passlib[bcrypt]

@@ -6,3 +6,4 @@ uvicorn
 psycopg[binary]
 loguru
 psycopg2-binary
+python-dotenv

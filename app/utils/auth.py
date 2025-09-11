@@ -1,3 +1,6 @@
+# Enlace para mas documentación:
+# https://fastapi.tiangolo.com/tutorial/security/
+
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, Optional
 import jwt
